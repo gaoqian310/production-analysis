@@ -86,11 +86,3 @@ fig.show()
 
 # %%
 df_filtered.info()
-
-# %%
-# to find correlation between different types of data available to us
-correlation_matrix = df_production.corr()
-print("Correlation Matrix:")
-print(correlation_matrix)
-
-
